@@ -8,12 +8,12 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : harry07ss的主页
+tagline: 这里是 WZL 的个人博客，创建于 2015 年。这里包含了部分个人的“折腾”过程、结论和成果，欢迎观赏、建议、拍砖……
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
+  name : harry07ss
+  email : 791489930@qq.com
+  github : harry07ss
   twitter : username
   feedburner : feedname
 
