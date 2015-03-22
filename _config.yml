@@ -9,13 +9,11 @@ highlighter: pygments
 # so be sure to set them if your theme uses them.
 #
 title : harry07ss的主页
-tagline: 这里是 WZL 的个人博客，创建于 2015 年。这里包含了部分个人的“折腾”过程、结论和成果，欢迎观赏、建议、拍砖……
+tagline: welcome
 author :
   name : harry07ss
   email : 791489930@qq.com
   github : harry07ss
-  twitter : username
-  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -25,7 +23,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://harry07ss.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -80,7 +78,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : duosuo
     disqus :
       short_name : jekyllbootstrap
     livefyre :
