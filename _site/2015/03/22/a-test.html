@@ -175,39 +175,39 @@
 
 <h2 id="section-1">图片</h2>
 
-<p><img src="./picture/1.jpg" alt="hello world" /></p>
+<p><img src="https://github.com/harry07ss/harry07ss.github.com/raw/master/picture/1.jpg" alt="hello world" /></p>
 
 <h2 id="section-2">代码</h2>
 
-<p>```js
-@Override
-public void onPictureTaken(byte[] data, Camera camera) {</p>
+<pre><code>@Override
+public void onPictureTaken(byte[] data, Camera camera) {
 
-<pre><code>//save the picture to sdcard
-File pictureFile = getOutputMediaFile();
-if (pictureFile == null){
-	Log.d(TAG, "Error creating media file, check storage permissions: ");
-	return;
-}
+	//save the picture to sdcard
+	File pictureFile = getOutputMediaFile();
+	if (pictureFile == null){
+		Log.d(TAG, "Error creating media file, check storage permissions: ");
+		return;
+	}
 
-try {
-	FileOutputStream fos = new FileOutputStream(pictureFile);
-	fos.write(data);
-	fos.close();
+	try {
+		FileOutputStream fos = new FileOutputStream(pictureFile);
+		fos.write(data);
+		fos.close();
+		
+		Toast.makeText(this, "Image has been saved to "+pictureFile.getAbsolutePath(), 
+				Toast.LENGTH_LONG).show();
+	} catch (FileNotFoundException e) {
+		Log.d(TAG, "File not found: " + e.getMessage());
+	} catch (IOException e) {
+		Log.d(TAG, "Error accessing file: " + e.getMessage());
+	}
 	
-	Toast.makeText(this, "Image has been saved to "+pictureFile.getAbsolutePath(), 
-			Toast.LENGTH_LONG).show();
-} catch (FileNotFoundException e) {
-	Log.d(TAG, "File not found: " + e.getMessage());
-} catch (IOException e) {
-	Log.d(TAG, "Error accessing file: " + e.getMessage());
+	// Restart the preview and re-enable the shutter button so that we can take another picture
+	camera.startPreview();
+	
+	//See if need to enable or not
+	mCaptureButton.setEnabled(true);
 }
-
-// Restart the preview and re-enable the shutter button so that we can take another picture
-camera.startPreview();
-
-//See if need to enable or not
-mCaptureButton.setEnabled(true); } ```
 </code></pre>
 
     <ul class="pager">
