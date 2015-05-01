@@ -67,20 +67,21 @@ author:
     simpleIntro: 我是「harry07ss」，控制科学与工程研究生，这里分享我个人一些技术方面的经历和总结，希望能锻炼写作，并能和大家交流。
     detailIntro:
       <p>Jekyll 是一个简洁的、特别针对博客平台的 静态网站 生成器。它使用一个模板目录作为网站布局的基础框架，并在其上运行 Textile 、 Markdown 或 Liquid 标记语言的转换器，最终生成一个完整的静态Web站点，可以被放置在Apache或者你喜欢的其他任何Web服务器上。它同时也是 GitHub Pages 、一个由 GitHub 提供的用于托管项目主页或博客的服务，在后台所运行的引擎。</p>
- 	  <p>这是本人搭建的第一个博客网站，无论页面还是内容都比较随意，您如果有任何建议，欢迎一起交流，邮箱＆QQ:791489930@qq.com</p>     
-	  <p>本站所用Jekyll主题作者掌心，在此表示感谢</p>
+      <p>这是本人搭建的第一个博客网站，无论页面还是内容都比较随意，您如果有任何建议，欢迎一起交流，邮箱＆QQ:791489930@qq.com </p>     
+      <p>本站所用Jekyll主题作者掌心，在此表示感谢</p>
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
 follow:
   - class: icon-rss
     url: /atom.xml
   - class: icon-weibo
-    url: http://weibo.com
+    url: http://weibo.com/pizn
   - class: icon-renren
     url: http://renren.com
   - class: icon-github-alt
     url: https://github.com/harry07ss
   - class: icon-google-plus
     url: https://plus.google.com/102031586836598721462/posts
+
 #Links
 customLinks:
   - item:
@@ -90,6 +91,8 @@ customLinks:
       url: http://jekyllrb.com
     - text: Jekyll Theme
       url: http://www.zhanxin.info/themes.html
+    - text: xmfbit
+      url: xmfbit.github.io
     message: 友情链接
   - item:
     - text: Font Awesome
@@ -97,9 +100,7 @@ customLinks:
     - text: ROS
       url: http://www.ros.org/
     - text: openSLAM
-      url: http://www.openslam.org/  
-	  
-
+      url: http://www.openslam.org/
     message: 其他相关链接
 
 #googleAnaly, your id link UA-12345678-X
