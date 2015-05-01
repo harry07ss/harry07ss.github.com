@@ -39,13 +39,12 @@ timezone:      null
 
 
 #Site config
-title: Jekyll Theme
+title: harry07ss的博客
 description: Just another Jekyll theme design and code by zhanxin.info.
 keywords: Jekyll Theme
-url: http://pizn.github.io/kunka
+url: http://harry07ss.github.io/
 feed: /atom.xml
-favicon: http://jekyllrb.com/favicon.png
-
+favicon: ./images/fav.ico
 #Nav config
 nav:
   - text: 首页
